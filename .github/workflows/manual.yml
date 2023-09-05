@@ -43,4 +43,4 @@ jobs:
 
 
       - name: Update papers
-        run: python manage.py update_papers.py
+        run: python manage.py update_papers
