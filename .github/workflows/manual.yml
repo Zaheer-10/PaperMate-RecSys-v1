@@ -1,10 +1,11 @@
 # Name of the workflow
 name: Fetch RecentPapers
 
-# Trigger the workflow every minute
-on:
+# Trigger the workflow manually or every day at 00:00 UTC
+on: 
+  workflow_dispatch:
   schedule:
-    - cron: '* * * * *'
+    - cron: '0 0 * * *'
 
 # Define the jobs to run
 jobs:
