@@ -30,8 +30,6 @@ share/python-wheels/
 .installed.cfg
 *.egg
 .PaperMate_env
-embedded_models
-embedded_models
 LaMini-Flan-T5-248M
 MANIFEST
 kaggletoken
