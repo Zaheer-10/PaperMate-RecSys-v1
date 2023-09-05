@@ -19,6 +19,9 @@ jobs:
         with:
           # Fetch all history for all branches and tags
           fetch-depth: 0
+      # Install the requirements from requirements.txt file
+      - name: Install requirements
+        run: pip install -r requirements.txt
       # Run the command without checking the branch name
       - name: Update papers
         run: python manage.py update_papers.py
