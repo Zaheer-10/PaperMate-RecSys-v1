@@ -25,10 +25,11 @@ jobs:
           python-version: 3.x  # Use the Python version you need
       - name: Install dependencies
         run: |
+          pip install --upgrade pip
           pip install requests
           pip install arxiv==1.4.8
           pip install Django==4.2.4
-          pip install numpy== 1.24.4
+          pip install numpy==1.25.2
           pip install pandas==2.0.3
           pip install pathlib==1.0.1
           pip install Pillow==10.0.0
