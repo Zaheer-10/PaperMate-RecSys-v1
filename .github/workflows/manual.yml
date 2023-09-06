@@ -43,4 +43,11 @@ jobs:
 
 
       - name: Update papers
+        env:
+          SECRET_KEY: ${{ secrets.PaperMate_db_SECRET_KEY }}
+          SQL_NAME: ${{ secrets.PaperMate_db_SQL_NAME }}
+          SQL_USER: ${{ secrets.PaperMate_db_SQL_USER }}
+          SQL_PASSWORD: ${{ secrets.PaperMate_db_SQL_PASSWORD }}
+          HOST: ${{ secrets.PaperMate_db_HOST }}
+          PORT: ${{ secrets.PaperMate_db_PORT }}
         run: python manage.py update_papers
