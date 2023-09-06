@@ -1,6 +1,7 @@
 <center>
   <img src="https://github.com/Zaheer-10/PaperMate-RecSys/blob/main/PM_Resources/Images/main_banner.png" alt="PaperMate-logo" align="middle">
-  
+  <h2 style="text-align: center;"><pre>Lighter Version of <a href="https://github.com/Zaheer-10/PaperMate-RecSys/tree/main">PaperMate</a></pre></h2>
+
 </center>
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -10,9 +11,8 @@
 ![](https://img.shields.io/github/stars/Zaheer-10/PaperMate-RecSys-v1.svg) 
 ![](https://img.shields.io/github/forks/Zaheer-10/PaperMate-RecSys-v1.svg) 
 
-`Lighter Version`
 
-<hr>
+
 ## What is PaperMate? 
 
 PaperMate is a cutting-edge NLP project that transforms the way you find, read, and enjoy research papers in machine learning, natural language processing, computer vision, and artificial intelligence. With PaperMate, you can simply tell or type what topics you are interested in, and get a curated list of arXiv papers organized by categories. PaperMate also uses smart algorithms to suggest papers that match your preferences. You can access the full papers, get summaries, visualize papers graphically, and have natural language chats about papers. PaperMate makes research more fun and easy to explore.
