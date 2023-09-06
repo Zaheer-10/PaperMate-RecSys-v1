@@ -310,7 +310,7 @@ celerybeat.pid
 # Environments
 
 .venv
-
+new.sh
 venv/
 ENV/
 env.bak/
