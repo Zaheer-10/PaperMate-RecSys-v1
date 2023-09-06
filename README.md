@@ -5,10 +5,7 @@
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 ![Python](https://img.shields.io/badge/python-v3.10.8-blue.svg)
-![Dependencies](https://img.shields.io/badge/dependencies-up%20to%20date-brightgreen.svg)
 [![GitHub Issues](https://img.shields.io/github/issues/Zaheer-10/PaperMate-RecSys-v1.svg)](https://github.com/Zaheer-10/PaperMate-RecSys-v1/issues)
-![GitHub commit activity (branch)](https://img.shields.io/github/commit-activity/m/Zaheer-10/PaperMate-RecSys-v1)
-![Contributions welcome](https://img.shields.io/badge/contributions-welcome-orange.svg)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 ![](https://img.shields.io/github/stars/Zaheer-10/PaperMate-RecSys-v1.svg) 
 ![](https://img.shields.io/github/forks/Zaheer-10/PaperMate-RecSys-v1.svg) 
@@ -47,8 +44,6 @@ But we go beyond recommendations. With NLP and machine learning, we enable quest
 - `Similarity Assessment`: Calculate paper similarity via cosine similarity for both titles and abstracts.
 - `Top Recommendations`: Identify 4 most similar papers for users, including abstracts and full-text links.
 - `Continuous Enhancement`: Set up monthly pipeline to scrape new papers from arXiv and re-embed for updated recommendations.
-- `Summarization`: Utilize ([MBZUAI/LaMini-Flan-T5-248M](https://huggingface.co/MBZUAI/LaMini-Flan-T5-248M/tree/main)) for summarization, generating concise and informative summaries of extensive research papers.
-- `Question Answering`: Leverage ([ggml-gpt4all-j-v1.3-groovy](https://huggingface.co/nomic-ai/gpt4all-j)) for question answering, enabling users to interact with papers through natural language queries and receive informative responses.
 - `Online Access`: Deploy the application online for user access. (Deployment details will be added later.)
 
 This holistic approach ensures PaperMate is a comprehensive and user-centric platform that enhances research exploration, understanding, and engagement. Watch for ongoing improvements as we continue to refine and optimize each component!
@@ -96,16 +91,6 @@ PaperMate's architecture encompasses several essential components to create a se
       <img src="https://github.com/Zaheer-10/PaperMate-RecSys/blob/main/PaperMate_ui/GUI/static/images/recommendation.svg" alt="Paper 4" width="400">
     </td>
   </tr>
-  <tr>
-    <td align="center">
-      <h2>Summarization</h2>
-      <img src="https://github.com/Zaheer-10/PaperMate-RecSys/blob/main/PaperMate_ui/GUI/static/images/summarization.svg" alt="Paper 5" width="400">
-    </td>
-    <td align="center">
-      <h2>Question Answering System</h2>
-      <img src="https://github.com/Zaheer-10/PaperMate-RecSys/blob/main/PaperMate_ui/GUI/static/images/qa.svg" alt="Paper 6" width="400">
-    </td>
-  </tr>
 </table>
 
 ## Report
@@ -115,12 +100,11 @@ The project report is available [here](). It provides a detailed explanation of 
 ## Making Sense of It All: A User's Guide to this GitHub Repository
 
 
-
 #### Open your termial (conda)
 
 #### Clone the repo and replace your folder name with 'test_mate'
 ```bash
-git lfs clone https://github.com/Zaheer-10/PaperMate-RecSys.git test_mate
+git lfs clone https://github.com/Zaheer-10/PaperMate-RecSys-v1.git test_mate
 ```
 
 ```bash
@@ -175,16 +159,6 @@ python manage.py runserver
 ```
 ##### Note : It may take some amount of time intially , make sure your connected to the valid internet connection.
 
-
-## Future Possibilities
-
-Continual improvements might include:
-
-- [ ] Adding more data sources.
-- [ ] Adding new menu to select which sentence transformer to use.
-- [ ] Building a Docker image for the app and deploy it on Docker Hub.
-- [ ] Finishing writing the project report.
-
 ## Acknowledgments
 
 I would like to extend my gratitude to arXiv for generously providing open access to their interoperability, which has significantly contributed to the success of this project.
@@ -200,7 +174,7 @@ Discover, Engage, Illuminate—Welcome to PaperMate.
 <p align="center">
   Want to experience the magic of PaperMate? Visit our website!
   <br>
-  <a href="Website_URL">
+  <a href="http://papermate.online/">
     <img src="https://github.com/Zaheer-10/PaperMate-RecSys/blob/main/PM_Resources/Images/PaperMate_animated.gif" alt="Visit Website" width="150">
   </a>
 </p>
