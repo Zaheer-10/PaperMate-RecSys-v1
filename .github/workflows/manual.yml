@@ -31,7 +31,6 @@ jobs:
           pip install Django==4.2.4
           pip install distutils
           pip install --upgrade setuptools
-          pip install numpy==1.25.2
           pip install pandas==2.0.3
           pip install pathlib==1.0.1
           pip install Pillow==10.0.0
@@ -42,6 +41,7 @@ jobs:
           pip install requests
           pip install  sentence-transformers==2.2.2
           pip install tqdm
+          pip install numpy
 
       - name: Debug Environment Variables
         run: |
