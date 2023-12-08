@@ -116,7 +116,7 @@ WSGI_APPLICATION = "PaperMate_ui.wsgi.application"
 # DB_HOST = os.environ.get('HOST', 'localhost')
 
 
-# Database settings
+# # Database settings
 DATABASES = {
     'default': {
         "ENGINE": "django.db.backends.postgresql",
